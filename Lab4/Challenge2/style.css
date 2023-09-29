@@ -1,0 +1,32 @@
+.content {
+  border: purple 2px dashed;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 180px 0 20px 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.text {
+  text-align: center;
+  color: green;
+  font-size: 8px;
+
+}
+
+.more-text {
+
+
+}
+
+.not-more {
+
+
+}
+
+#super {
+  color: blue;
+  
+  font-size: 10px;
+}
