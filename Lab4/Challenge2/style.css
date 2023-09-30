@@ -1,5 +1,5 @@
 .content {
-  border: purple 2px dashed;
+  border: purple 2px dotted;
   margin-left: 10%;
   margin-right: 10%;
   padding: 180px 0 20px 0;
@@ -16,17 +16,25 @@
 }
 
 .more-text {
-
-
+ color: orange;
+ font-size: 25px;
+ margin-left: 10%;
 }
 
 .not-more {
+  color: purple;
+  font-size: 8px;
+  text-align: right;
+  margin-right: 10%;
+}
 
+#yellow {
+  color: yellow;
 
 }
 
 #super {
-  color: blue;
-  
-  font-size: 10px;
+  color: red;
+  vertical-align: super;
+
 }
