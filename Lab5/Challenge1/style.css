@@ -1,0 +1,27 @@
+body{
+	color:white;
+  margin: 0;
+  margin-top: -13px;
+}
+
+#header{
+	height:80px;
+	text-align:center;
+  background-color: red;
+  line-height: 80px;
+}
+
+#body{
+  line-height: 50px;
+	height: 500px;
+	background-color:green;
+  text-align: left;
+}
+
+
+#footer{
+  line-height: 50px;
+	text-align:left;
+	height:80px;
+  background-color: blue;
+}
