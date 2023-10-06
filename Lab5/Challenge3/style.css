@@ -1,9 +1,6 @@
-
-
 body{
 	background-color:green;
 }
-
 
 #left-box{
   background-color: blue;
@@ -22,7 +19,6 @@ body{
   top: 285px;
   left: 585px;
   height:270px;
-
 }
 
 #left-box, #right-box, #center-box {
@@ -34,5 +30,4 @@ body{
   height:255px;
   top: 15px;
   padding-top: 15px;
-
 }
