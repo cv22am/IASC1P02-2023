@@ -1,0 +1,38 @@
+
+
+body{
+	background-color:green;
+}
+
+
+#left-box{
+  background-color: blue;
+  float:left;
+  left: 230px;
+}
+
+#right-box{
+  background-color: red;
+	float:right;
+  right: 230px;
+}
+
+#center-box{
+  background-color: yellow;
+  top: 285px;
+  left: 585px;
+  height:270px;
+
+}
+
+#left-box, #right-box, #center-box {
+  width: 270px;
+  position: absolute;
+}
+
+#left-box, #right-box {
+  height:255px;
+  top: 15px;
+  padding-top: 15px;
+
+}
