@@ -1,0 +1,167 @@
+/* CSS for imageboard.html */
+img {
+  width: 250px;
+  height: 150px;
+}
+
+.imageBoard {
+  margin-top: 2%;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.imageBoard a{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: Solid 2px black;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: hotpink;
+  font-family: monospace;
+}
+
+.button a:hover{
+  background-color: #04B3AC;
+}
+
+.button {
+  margin-bottom: 20px;
+}
+
+
+
+/* CSS for Assignment2.html */
+h3, h2, h1 {
+  color: hotpink;
+  text-align: center;
+
+}
+
+h3:hover, h2:hover, h1:hover {
+  color: #04B3AC;
+
+}
+
+.unordered, .unordered li, .builds, .builds ol {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro, .trims, .imagepanel{
+  border: Solid 2px hotpink;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.typer, .builds, .unordered, .imagepanel a, .trims a{
+  border: Solid 2px black;
+}
+
+.typer, .builds{
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.imagepanel a, .trims a{
+  font-family: monospace;
+  font-size: 15px;
+}
+
+
+.main {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.unordered {
+  padding: 20px;
+  width: 50%;
+}
+
+.unordered li{
+  width: 50%;
+}
+
+.imagepanel {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.imagepanel a{
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.imagepanel a:hover{
+  background-color: #04B3AC;
+
+}
+.images {
+  margin-bottom: 15px;
+}
+
+.builds {
+  color: hotpink;
+}
+
+.builds ol{
+  width: 15%;
+}
+
+.trims a{
+  margin-left: 45%;
+  margin-right: auto;
+  padding: 5px;
+  text-transform: lowercase;
+  text-decoration: none;
+
+}
+
+.trims {
+  padding-bottom: 15px;
+}
+
+.trims a:hover{
+  background-color: #04B3AC;
+}
+
+
+/* CSS for img */
+#img1 {
+  position: absolute;
+  left: 8%;
+  margin-top: 30px;
+  z-index: 1;
+}
+
+#img2 {
+  position: relative;
+  bottom: 0px;
+  left: 40%;
+  z-index: 1;
+}
+
+#img3 {
+  position: fixed;
+  bottom: 5px;
+  right: 10%;
+  z-index: 1;
+  width: 150px;
+  height: auto;
+}
+
+.imgBox {
+  border: solid 2px black;
+  margin-top: 10px;
+
+}
