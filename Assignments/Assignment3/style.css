@@ -263,11 +263,3 @@ span {
 #twotext3 h1 {
   top: 860px;
 }
-
-table h1 {
-  text-transform: uppercase;
-  font-size: 25px;
-  position: absolute;
-  text-align: left;
-  margin-left: 40px;
-}
