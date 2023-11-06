@@ -153,7 +153,105 @@ span {
   font-weight: bold;
 }
 
-.main2 {
-  position: relative;
-  left: 300px;
+
+
+
+
+
+
+.main1 {
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+}
+.main2 th, td{
+  border: black solid 2px;
+
+}
+
+#img12 img {
+  width: 125px;
+  padding-right: 10px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+#img22 img {
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 70px;
+}
+
+#img32 img {
+  width: 200px;
+  transform: rotate(90deg);
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+
+#img32 {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+#ul12 {
+  position: absolute;
+  top: 220px;
+  text-align: left;
+  margin-left: 40px;
+
+}
+
+#ul22 {
+  position: absolute;
+  top: 550px;
+  text-align: left;
+  margin-left: 40px;
+
+}
+
+#ul32 {
+  position: absolute;
+  top: 910px;
+  text-align: left;
+  margin-left: 40px;
+
+}
+
+#text12 {
+  padding-right: 400px;
+}
+
+#text22 {
+  padding-right: 400px;
+}
+
+#text32 {
+  padding-right: 400px;
+}
+
+#text12 h1 {
+  top: 175px;
+}
+
+#text22 h1 {
+  top: 505px;
+}
+
+#text32 h1 {
+  top: 860px;
+}
+
+table h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  position: absolute;
+  text-align: left;
+  margin-left: 40px;
 }
