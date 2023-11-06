@@ -19,8 +19,8 @@ body {
   text-align: center;
 
 }
-.header {
 
+.header {
   background-color: #2F2519;
 }
 
@@ -33,7 +33,7 @@ body {
 .footer {
   position: relative;
   top: 15px;
-  margin-top: 42%;
+  margin-top: 0px;
   text-align: center;
   border: black solid 2px;
   padding-top: 12px;
@@ -60,9 +60,7 @@ body {
 .main1 th, td{
   border: black solid 2px;
 
-
 }
-
 
 #img1 img {
   width: 125px;
@@ -71,7 +69,6 @@ body {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 30px;
-
 }
 
 #img2 img {
@@ -79,7 +76,7 @@ body {
   margin-top: 50px;
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 #img3 img {
@@ -88,7 +85,7 @@ body {
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 #img3 {
@@ -103,16 +100,6 @@ body {
   margin-left: 40px;
 
 }
-#text1 {
-  padding-right: 400px;
-}
-
-#text1 h1 {
-  position: absolute;
-  top: 185px;
-  text-align: left;
-  margin-left: 40px;
-}
 
 #ul2 {
   position: absolute;
@@ -121,34 +108,52 @@ body {
   margin-left: 40px;
 
 }
+
+#ul3 {
+  position: absolute;
+  top: 910px;
+  text-align: left;
+  margin-left: 40px;
+
+}
+
+#text1 {
+  padding-right: 400px;
+}
+
 #text2 {
   padding-right: 400px;
 }
 
-#text2 h1 {
-  position: absolute;
-  top: 510px;
-  text-align: left;
-  margin-left: 40px;
-}
-
-
-
-
-#ul3 {
-  position: absolute;
-  top: 890px;
-  text-align: left;
-  margin-left: 40px;
-
-}
 #text3 {
   padding-right: 400px;
 }
 
+#text1 h1 {
+  top: 175px;
+}
+
+#text2 h1 {
+  top: 505px;
+}
+
 #text3 h1 {
+  top: 860px;
+}
+
+table h1 {
+  text-transform: uppercase;
+  font-size: 25px;
   position: absolute;
-  top: 850px;
   text-align: left;
   margin-left: 40px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.main2 {
+  position: relative;
+  left: 300px;
 }
