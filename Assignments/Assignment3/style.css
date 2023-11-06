@@ -32,7 +32,7 @@ body {
 
 .footer {
   position: relative;
-  top: 15px;
+  top: 0px;
   margin-top: 0px;
   text-align: center;
   border: black solid 2px;
@@ -80,7 +80,7 @@ body {
 }
 
 #img3 img {
-  width: 200px;
+  width: 210px;
   transform: rotate(90deg);
   margin-top: 60px;
   margin-left: 40px;
@@ -162,23 +162,23 @@ span {
 .main1 {
   display: inline-block;
   float: left;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 .main2 th, td{
   border: black solid 2px;
 
 }
 
-#img12 img {
+#twoimg1 img {
   width: 125px;
   padding-right: 10px;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 30px;
 }
 
-#img22 img {
+#twoimg2 img {
   width: 150px;
   margin-top: 50px;
   margin-left: 40px;
@@ -186,21 +186,21 @@ span {
   margin-bottom: 70px;
 }
 
-#img32 img {
-  width: 200px;
+#twoimg3 img {
+  width: 210px;
   transform: rotate(90deg);
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
-#img32 {
+#twoimg3 {
   padding-top: 50px;
   padding-bottom: 90px;
 }
 
-#ul12 {
+#twoul1 {
   position: absolute;
   top: 220px;
   text-align: left;
@@ -208,7 +208,7 @@ span {
 
 }
 
-#ul22 {
+#twoul2 {
   position: absolute;
   top: 550px;
   text-align: left;
@@ -216,7 +216,7 @@ span {
 
 }
 
-#ul32 {
+#twoul3 {
   position: absolute;
   top: 910px;
   text-align: left;
@@ -224,27 +224,29 @@ span {
 
 }
 
-#text12 {
-  padding-right: 400px;
+#twotext1 {
+  padding-right: 410px;
+
 }
 
-#text22 {
-  padding-right: 400px;
+#twotext2 {
+  padding-right: 410px;
 }
 
-#text32 {
-  padding-right: 400px;
+#twotext3 {
+  padding-right: 410px;
 }
 
-#text12 h1 {
+#twotext1 h1 {
   top: 175px;
+
 }
 
-#text22 h1 {
+#twotext2 h1 {
   top: 505px;
 }
 
-#text32 h1 {
+#twotext3 h1 {
   top: 860px;
 }
 
