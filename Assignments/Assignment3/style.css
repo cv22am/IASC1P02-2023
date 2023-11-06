@@ -1,0 +1,154 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+body {
+  background: #FFEFCF;
+}
+
+.header, .navbar {
+  color: #FFEFCF;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+
+}
+.header {
+
+  background-color: #2F2519;
+}
+
+.navbar {
+  margin-top: 0;
+  border: black solid 2px;
+  background-color: #4A3F35;
+}
+
+.footer {
+  position: relative;
+  top: 15px;
+  margin-top: 42%;
+  text-align: center;
+  border: black solid 2px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4A3F35;
+  color: #FFEFCF;
+}
+
+#address {
+  position: absolute;
+  left: 100px;
+  bottom: 12px;
+}
+
+
+#phone {
+  position: absolute;
+  right: 100px;
+  bottom: 12px;
+}
+
+
+
+.main1 th, td{
+  border: black solid 2px;
+
+
+}
+
+
+#img1 img {
+  width: 125px;
+  padding-right: 10px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+
+}
+
+#img2 img {
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+
+#img3 img {
+  width: 200px;
+  transform: rotate(90deg);
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+
+#img3 {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+#ul1 {
+  position: absolute;
+  top: 220px;
+  text-align: left;
+  margin-left: 40px;
+
+}
+#text1 {
+  padding-right: 400px;
+}
+
+#text1 h1 {
+  position: absolute;
+  top: 185px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+#ul2 {
+  position: absolute;
+  top: 550px;
+  text-align: left;
+  margin-left: 40px;
+
+}
+#text2 {
+  padding-right: 400px;
+}
+
+#text2 h1 {
+  position: absolute;
+  top: 510px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+
+
+
+#ul3 {
+  position: absolute;
+  top: 890px;
+  text-align: left;
+  margin-left: 40px;
+
+}
+#text3 {
+  padding-right: 400px;
+}
+
+#text3 h1 {
+  position: absolute;
+  top: 850px;
+  text-align: left;
+  margin-left: 40px;
+}
