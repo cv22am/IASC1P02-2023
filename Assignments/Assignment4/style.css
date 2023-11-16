@@ -1,0 +1,44 @@
+.header {
+  text-align: center;
+  border: 2px black solid;
+}
+
+
+#img1 {
+  position: fixed;
+  z-index: 5;
+
+  width: 400px;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 8%;
+
+}
+
+#img2 {
+  position: fixed;
+  z-index: 5;
+  left: 52%;
+  width: 300px;
+  height: auto;
+  margin-left: 13%;
+  margin-top: 7%;
+}
+
+
+
+#video1 {
+  position: fixed;
+
+  right: 0;
+  top: 100px;
+
+}
+
+#video2 {
+  position: fixed;
+
+  left: 0;
+  top: 100px;
+
+}
