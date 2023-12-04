@@ -137,7 +137,9 @@ p {
 }
 
 .main2 img:nth-child(1) {
-  /* float: right; */
+  position: relative;
+  float: right;
   width: 600px;
   height: auto;
+  top: -900px;
 }

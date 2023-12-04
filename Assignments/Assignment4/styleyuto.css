@@ -1,0 +1,57 @@
+body {
+  position: relative;
+    background-color: #FAF9F6;
+    z-index: 0;
+
+}
+
+
+
+.header {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  border: 2px black solid;
+  background-color: #44b6db;
+  z-index: 0;
+}
+
+.header h1 {
+  position: relative;
+  color: #feb6f2;
+  font-family: Creepster;
+  font-size: 50px;
+  z-index: 0;
+
+
+}
+.nav {
+  height: 100%;
+  position: relative;
+  margin-top: .4%;
+  z-index: 5;
+  text-align: center;
+  border: 2px black solid;
+  background-color: #feb6f2;
+  padding: .2%;
+}
+
+.nav a {
+  position: relative;
+  font-family: Creepster;
+  text-decoration: none;
+  color: #44b6db;
+  font-size: 25px;
+
+}
+
+.main img {
+    position: relative;
+    float: right;
+    top: 50px;
+    right: 50px;
+    width: 500px;
+    height: auto;
+    z-index: 6;
+
+  }
