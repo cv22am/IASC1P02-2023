@@ -80,7 +80,7 @@ body {
   width: 150px;
   height: auto;
   position: relative;
-  top: -650px;
+  top: -600px;
   z-index: 6;
   left: 65%;
 
@@ -93,6 +93,10 @@ body {
 
 }
 
+.gif {
+  position: relative;
+  left: 2%;
+}
 #gif1, #gif2, #gif3, #gif4, #gif5, #gif6, #gif7, #gif8, #gif9, #gif10, #gif11, #gif12, #gif13, #gif14, #gif15 {
   width: 88px;
   top: -400px;
@@ -102,6 +106,52 @@ body {
   left: 0;
 
 }
-#gif1 {
-  left: 3%;
+
+
+#sparkle1 {
+  width: 75px;
+  height: auto;
+  position: relative;
+  left: 10%;
+  top: -300px;
+}
+
+#sparkle2 {
+  width: 50px;
+  height: auto;
+  position: relative;
+  left: 80%;
+  top: -300px;
+}
+
+#sparkle3 {
+  width: 25px;
+  height: auto;
+  position: relative;
+  left: 20%;
+  top: -300px;
+}
+
+#sparkle4 {
+  width: 40px;
+  height: auto;
+  position: relative;
+  left: 40%;
+  top: -200px;
+}
+
+#sparkle5 {
+  width: 15px;
+  height: auto;
+  position: relative;
+  left: 50%;
+  top: -350px;
+}
+
+#tech1 {
+  width: 200px;
+  height: auto;
+  position: relative;
+  left: 50%;
+  top: -350px;
 }
