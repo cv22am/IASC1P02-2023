@@ -2,7 +2,6 @@ body {
   position: relative;
     background-color: black;
     z-index: 0;
-
 }
 
 .header {
@@ -11,7 +10,6 @@ body {
   text-align: center;
   border: 2px #fbcdf4 solid;
   background-color: black;
-
   z-index: 0;
 }
 
@@ -47,10 +45,8 @@ body {
 }
 
 #mainPage:hover, #yutoPage:hover, #nikePage:hover {
-
   color: white;
 }
-
 
 .main img{
   width: 600px;
@@ -90,20 +86,19 @@ body {
   top: -600px;
   z-index: 6;
   left: 65%;
-
 }
 
 #eyes {
   width: 150px;
   height: auto;
   position: relative;
-
 }
 
 .gif {
   position: relative;
   left: 2%;
 }
+
 #gif1, #gif2, #gif3, #gif4, #gif5, #gif6, #gif7, #gif8, #gif9, #gif10, #gif11, #gif12, #gif13, #gif14, #gif15 {
   width: 88px;
   top: -400px;
@@ -111,9 +106,7 @@ body {
   position: relative;
   z-index: 6;
   left: 0;
-
 }
-
 
 #sparkle1 {
   width: 75px;
@@ -173,7 +166,6 @@ body {
   line-height: 30px;
   padding: 10px;
   border: 2px #fbcdf4 solid;
-
 }
 
 p {
@@ -195,7 +187,6 @@ p {
   height: auto;
   left: 0;
   top: -450px;
-
 }
 
 .Main2 {
@@ -206,7 +197,6 @@ p {
 
 .sparkle {
   height: 0px;
-
 }
 
 .world-time span {
@@ -216,7 +206,6 @@ p {
   margin-top: 50px;
   padding: 3px;
   border: 2px #fbcdf4 solid;
-
 }
 
 #est, #cet, #jst {
@@ -224,12 +213,10 @@ p {
   color: white;
   line-height: 50px;
   padding: 5px;
-
   font-weight: normal;
 }
 
 .world-time {
-
   border: 2px #fbcdf4 solid;
   position: relative;
   width: 800px;
@@ -238,7 +225,6 @@ p {
   left: 21%;
   text-align: center;
   padding: 10px;
-
 }
 
 .estClass {
@@ -251,9 +237,7 @@ p {
   top: 0px;
   position: relative;
   float: left;
-
   left: 18%;
-
 }
 
 .jstClass {

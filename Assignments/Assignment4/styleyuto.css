@@ -2,10 +2,7 @@ body {
   position: relative;
     background-color: #FAF9F6;
     z-index: 0;
-
 }
-
-
 
 .header {
   height: 100%;
@@ -22,13 +19,12 @@ body {
   font-family: Creepster;
   font-size: 50px;
   z-index: 0;
-
-
 }
 
 .header h1:hover {
   color: white;
 }
+
 .nav {
   height: 100%;
   position: relative;
@@ -46,11 +42,9 @@ body {
   text-decoration: none;
   color: #44b6db;
   font-size: 25px;
-
 }
 
 #mainPage:hover, #yutoPage:hover, #nikePage:hover {
-
   color: white;
 }
 
@@ -62,9 +56,7 @@ body {
     width: 500px;
     height: auto;
     z-index: 6;
-
 }
-
 
 .main p {
   position: relative;
@@ -75,7 +67,6 @@ body {
   padding: 10px;
   left: 5%;
   top: 100px;
-
 }
 
 #board {
@@ -85,7 +76,6 @@ body {
   transform: rotate(90deg);
   left: -300px;
   top: -100px;
-
 }
 
 .world-time span {
@@ -95,8 +85,6 @@ body {
   margin-top: 50px;
   padding: 3px;
   border: 2px black solid;
-
-
   background-color: #44b6db;
 }
 
@@ -118,7 +106,6 @@ body {
   left: 21%;
   text-align: center;
   padding: 10px;
-
 }
 
 .estClass {
@@ -129,9 +116,7 @@ body {
 .cetClass {
   position: relative;
   float: left;
-
   left: 18%;
-
 }
 
 .jstClass {
@@ -166,18 +151,14 @@ body {
   z-index: 6;
 }
 
-
-
 #sparkle4 {
   width: 30px;
   height: auto;
   position: relative;
   left: 77%;
   top: 400px;
-
   z-index: 6;
 }
-
 
 #film1 {
   position: relative;
@@ -195,8 +176,6 @@ iframe {
   position: relative;
   left: 100px;
   top: 70px;
-
-
 }
 
 #film2 {
@@ -205,5 +184,4 @@ iframe {
   height: auto;
   left: -10px;
   top: 150px;
-
 }
