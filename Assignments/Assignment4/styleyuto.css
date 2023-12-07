@@ -54,4 +54,155 @@ body {
     height: auto;
     z-index: 6;
 
-  }
+}
+
+
+.main p {
+  position: relative;
+  font-size: 18px;
+  line-height: 30px;
+  border: 2px #feb6f2 solid;
+  width: 700px;
+  padding: 10px;
+  left: 5%;
+  top: 100px;
+
+}
+
+#board {
+  position: relative;
+  width: 400px;
+  height: auto;
+  transform: rotate(90deg);
+  left: -300px;
+  top: -100px;
+
+}
+
+.world-time span {
+  text-align: center;
+  font-weight: bolder;
+  color: #feb6f2;
+  margin-top: 50px;
+  padding: 3px;
+  border: 2px black solid;
+
+
+  background-color: #44b6db;
+}
+
+#est, #cet, #jst {
+  color: #44b6db;
+  line-height: 50px;
+  padding: 5px;
+  background-color: #feb6f2;
+  font-weight: normal;
+}
+
+.world-time {
+  background-color: #feb6f2;
+  border: 2px black solid;
+  position: relative;
+  width: 800px;
+  top: 550px;
+  height: 55px;
+  left: 21%;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.estClass {
+  position: relative;
+  float: left;
+}
+
+.cetClass {
+  position: relative;
+  float: left;
+
+  left: 18%;
+
+}
+
+.jstClass {
+  left: 36%;
+  top: -63px;
+  position: relative;
+  float: left;
+}
+
+#sparkle1 {
+  width: 75px;
+  height: auto;
+  position: relative;
+  left: -20%;
+  top: 450px;
+}
+
+#sparkle2 {
+  width: 40px;
+  height: auto;
+  position: relative;
+  left: -20%;
+  top: 600px;
+}
+
+#sparkle3 {
+  width: 60px;
+  height: auto;
+  position: relative;
+  left: 74%;
+  top: 525px;
+  z-index: 6;
+}
+
+
+
+#sparkle4 {
+  width: 30px;
+  height: auto;
+  position: relative;
+  left: 77%;
+  top: 400px;
+
+  z-index: 6;
+}
+
+
+#film1 {
+  position: relative;
+  width: 600px;
+  height: auto;
+  top: 70px;
+  z-index: 3;
+  left: 10%;
+}
+
+iframe {
+  z-index: 3;
+  width: 600px;
+  height: 790px;
+  position: relative;
+  left: 100px;
+  top: 70px;
+
+
+}
+
+#film2 {
+  position: relative;
+  width: 1445px;
+  height: auto;
+  left: -10px;
+  top: 150px;
+
+
+}
+
+.main2 {
+
+
+
+
+}
