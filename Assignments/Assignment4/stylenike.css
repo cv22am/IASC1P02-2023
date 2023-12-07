@@ -3,7 +3,6 @@ body {
     background-color: black;
     z-index: 0;
 
-
 }
 
 .header {
@@ -22,10 +21,12 @@ body {
   font-family: Creepster;
   font-size: 50px;
   z-index: 0;
-
-
-
 }
+
+.header h1:hover {
+  color: white;
+}
+
 .nav {
   height: 100%;
   position: relative;
@@ -43,6 +44,11 @@ body {
   text-decoration: none;
   color: #fbcdf4;
   font-size: 25px;
+}
+
+#mainPage:hover, #yutoPage:hover, #nikePage:hover {
+
+  color: white;
 }
 
 
@@ -188,17 +194,71 @@ p {
   width: 100%;
   height: auto;
   left: 0;
-  top: -600px;
+  top: -450px;
 
 }
 
 .Main2 {
   padding-top: 200px;
-  height: 800px;
+  height: 1080px;
   overflow: hidden;
 }
 
 .sparkle {
   height: 0px;
 
+}
+
+.world-time span {
+  text-align: center;
+  font-weight: bolder;
+  color: #fbcdf4;
+  margin-top: 50px;
+  padding: 3px;
+  border: 2px #fbcdf4 solid;
+
+}
+
+#est, #cet, #jst {
+  border: 2px #fbcdf4 solid;
+  color: white;
+  line-height: 50px;
+  padding: 5px;
+
+  font-weight: normal;
+}
+
+.world-time {
+
+  border: 2px #fbcdf4 solid;
+  position: relative;
+  width: 800px;
+  top: -575px;
+  height: 55px;
+  left: 21%;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.estClass {
+  top: 0px;
+  position: relative;
+  float: left;
+}
+
+.cetClass {
+  top: 0px;
+  position: relative;
+  float: left;
+
+  left: 18%;
+
+}
+
+.jstClass {
+  top: 0px;
+  left: 36%;
+  position: relative;
+  float: left;
 }

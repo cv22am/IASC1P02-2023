@@ -25,6 +25,10 @@ body {
 
 
 }
+
+.header h1:hover {
+  color: white;
+}
 .nav {
   height: 100%;
   position: relative;
@@ -43,6 +47,11 @@ body {
   color: #44b6db;
   font-size: 25px;
 
+}
+
+#mainPage:hover, #yutoPage:hover, #nikePage:hover {
+
+  color: white;
 }
 
 .main img {
@@ -196,13 +205,5 @@ iframe {
   height: auto;
   left: -10px;
   top: 150px;
-
-
-}
-
-.main2 {
-
-
-
 
 }

@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-
+	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
 
 </head>
 
@@ -18,9 +18,9 @@
     </div>
 		<div class="nav">
 
-				<a href="main.html">Main Page / </a>
-				<a href="yuto.html">Yuto / </a>
-				<a href="nike.html">Nike</a>
+				<a href="main.html"><span id="mainPage">Main Page</span> / </a>
+				<a href="yuto.html"><span id="yutoPage">Yuto</span> / </a>
+				<a href="nike.html"><span id="nikePage">Nike</span></a>
 
 		</div>
     <div class="main">
@@ -41,7 +41,7 @@
     </div>
 
 		<div class="banner">
-			<p>
+			<p id="animate">
 				<span>Yuto Horigome x Nike Dunks x</span>
 				<span>Yuto Horigome x Nike Dunks x</span>
 				<span>Yuto Horigome x Nike Dunks x</span>
@@ -53,11 +53,45 @@
 			</p>
 		</div>
 		<div class="main2">
-			<img src="images/main/flower1.jpg" alt=""/>
-			<img src="images/main/flower2.jpg" alt=""/>
-			<img src="images/main/flower3.jpg" alt=""/>
+			<div class="text">
+				<p id="p1">With a mix of top-shelf tech and unmatched poise, Yuto Horigome never stops leveling up. The first person to take home skateboarding gold and set off a sweep for Japan, Yuto embraces and owns every moment with a potent mix of generational skill and quiet determination. Much anticipated like every Yuto moment, his first Dunk colorway goes back to his roots and most importantly, the pure fun that grounds his skateboarding.</p>
+				<p id="p2">Built from premium materials the Nike SB Dunk Low Pro Yuto Horigome celebrates his hometown with a symbolic colorway handpicked by Yuto. Inside and out, Yuto’s Dunk is an homage to Ōjima Komatsugawa Park in Tokyo, Japan—the place that defined his early days of skating and sparked his journey. From the marble benches to the rich cherry blossoms that light up Komatsugawa’s paths, the premium suede and leather upper features washed hues that emulate the colors of Yuto’s youth. Featuring embroidered feathers artwork designed by Japanese artist Verdy on the heel and tongue detail, and cherry blossom renderings on the insoles, the Yuto Horigome Dunk Low also comes packaged in a custom box and offers three tonal lace options.</p>
+				<p id="p3">www.nikesb.com/the-vault/sail-box-era/yuto</p>
+			</div>
+			<img id="flower1" src="images/main/flower1.jpg" alt=""/>
+			<img id="landscape" src="images/main/landscapeShoe.jpeg" alt="">
 		</div>
-    <script type="text/javascript" src="scripts.js"></script>
+		<div class="world-time">
+			<div class="estClass">
+				<span>Eastern Standard Time:</span>
+				<br/>
+				<span id="est"></span>
+			</div>
+			<div class="cetClass">
+				<span>Central European Time</span>
+				<br/>
+				<span id="cet"></span>
+			</div>
+			<div class="jstClass">
+				<span>Japan Standard Time</span>
+				<br/>
+				<span id="jst"></span>
+			</div>
+		</div>
+		<div class="row">
+			<img class="column" src="images/main/collageYuto1.jpeg" alt="">
+			<img class="column" src="images/main/collageYuto2.jpeg" alt="">
+			<img class="column" src="images/main/collageYuto3.jpeg" alt="">
+			<img class="column" src="images/main/collageYuto4.jpeg" alt="">
+		</div>
+		<h6 id="endcard">Yuto Horigome x Nike Dunks</h6>
+		<div class="row2">
+			<img class="column2" src="images/main/2collageYuto1.jpeg" alt="">
+			<img class="column2" src="images/main/2collageYuto2.jpeg" alt="">
+			<img class="column2" src="images/main/2collageYuto3.jpeg" alt="">
+			<img class="column2" src="images/main/2collageYuto4.jpeg" alt="">
+		</div>
+		<script src="scripts.js"></script>
   </body>
 
 </html>
