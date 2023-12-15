@@ -64,8 +64,8 @@ html, body {
   margin-top: 8%;
   width: 400px;
   float: left;
-  padding-left: 12%;
-  padding-right: auto;
+  left: 12%;
+
 
   z-index: 2;
 }
@@ -73,8 +73,8 @@ html, body {
 #img2 {
   position: absolute;
   margin-top: 8%;
-  padding-left: 67%;
-  padding-right: auto;
+  left: 67%;
+
   width: 300px;
 
   z-index: 2;
