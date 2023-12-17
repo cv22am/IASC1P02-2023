@@ -85,10 +85,12 @@ html, body {
 }
 
 #video1 {
+  width: 50%;
   float: left;
 }
 
 #video2 {
+  width: 50%;
   float: right;
 }
 
