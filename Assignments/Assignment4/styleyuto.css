@@ -74,7 +74,7 @@ body {
   width: 400px;
   height: auto;
   transform: rotate(90deg);
-  left: -300px;
+  right: 20%;
   top: -100px;
 }
 
@@ -109,22 +109,25 @@ body {
 }
 
 .estClass {
+
   position: relative;
   float: left;
 }
 
 .cetClass {
+
   position: relative;
   float: left;
   left: 18%;
 }
 
 .jstClass {
+  top: -62px;
   left: 36%;
-  top: -63px;
   position: relative;
   float: left;
 }
+
 
 #sparkle1 {
   width: 75px;
