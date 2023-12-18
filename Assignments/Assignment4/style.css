@@ -7,8 +7,6 @@ body {
 
 html, body {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
     overflow-x: hidden;
 }
 
@@ -71,25 +69,26 @@ html, body {
   z-index: 2;
 }
 
-#video1:hover + #video2 {
+#back-img1:hover + #back-img2 {
   visibility: hidden;
 }
 
-.video {
+.background {
   height: 1000px;
   position: relative;
   bottom: 300px;
-  filter: brightness(80%);
+
   filter: blur(3px);
   z-index: 0;
 }
 
-#video1 {
+#back-img1 {
   width: 50%;
   float: left;
 }
 
-#video2 {
+#back-img2 {
+
   width: 50%;
   float: right;
 }
@@ -256,4 +255,14 @@ h1:hover {
   height: auto;
   flex: 33.33%;
   padding: 5px;
+}
+
+#anchor {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  top: 40px;
+  left: 45%;
 }

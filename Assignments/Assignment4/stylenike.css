@@ -241,3 +241,13 @@ p {
   position: relative;
   float: left;
 }
+
+#anchor {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  top: -775px;
+  left: 45%;
+}

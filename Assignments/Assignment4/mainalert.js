@@ -1,8 +1,1 @@
-function showPopUp() {
-    var cookie = $.cookie('the_cookie');
-    if(!cookie){
-        alert(" Please view this in Firefox");
-        $.cookie('the_cookie', 'the_value');
-    }
-}
-showPopUp();
+alert("WARNING\nThis page was made for a 16:10 aspect ratio.\nTo look proper, adjust your browser size.\nDo this by scaling the right side of your screen until the elements on the page fit properly and are centered.");
